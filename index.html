@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        :root {
+            /* Alfa Blue Shades */
+            --color-alfa-blue-50: #dee3ff;
+            --color-alfa-blue-100: #b2beff;
+            --color-alfa-blue-200: #8d9fff;
+            --color-alfa-blue-300: #2043ff;
+            --color-alfa-blue-400: #1731bf;
+            --color-alfa-blue-500: #0f207c;
+            --color-alfa-blue-600: #0d1c6e;
+            --color-alfa-blue-700: #0c1a67;
+            --color-alfa-blue-800: #0b1759;
+            --color-alfa-blue-900: #060e37;
+            --color-alfa-blue-950: #030822;
+
+            /* Alfa Yellow Shades */
+            --color-alfa-yellow-50: #fff7e0;
+            --color-alfa-yellow-100: #ffedb3;
+            --color-alfa-yellow-200: #ffe386;
+            --color-alfa-yellow-300: #ffd959;
+            --color-alfa-yellow-400: #ffcf2d;
+            --color-alfa-yellow-500: #ffb901;
+            --color-alfa-yellow-600: #e6a700;
+            --color-alfa-yellow-700: #cc9500;
+            --color-alfa-yellow-800: #b38300;
+            --color-alfa-yellow-900: #996f00;
+            --color-alfa-yellow-950: #664a00;
+        }
+
+        .font-cinzel {
+            font-family: 'Cinzel', serif;
+        }
+    </style>
+</head>
+
+<body class="bg-zinc-100">
+    <section>
+        <div class="bg-[url(background1.webp)] bg-cover bg-center">
+            <!-- <div class="flex flex-col justify-center items-center h-full bg-[var(--color-alfa-blue-950)]/90"> -->
+            <div class="bg-gray-950/80 flex justify-center items-center py-12">
+                <div class="max-w-screen-xl mx-auto grid grid-cols-2">
+                    <div class="h-full flex items-center px-4">
+                        <div class="space-y-6 text-white">
+                            <div class="flex items-center gap-4">
+                                <img src="logo-white.webp" alt="Logo Alfa Prima" width="28" height="28" class="mb-0.5 size-12" />
+                                <span class="uppercase text-3xl font-cinzel font-medium whitespace-nowrap text-black dark:text-white">
+                                    Alfa Prima
+                                </span>
+                            </div>
+                            <h1 class="text-7xl font-bold leading-tight">Gelombang 3<br>Sudah Dibuka</h1>
+                            <div class="text-lg leading-8 text-zinc-200">
+                                <!-- <p>Dapatkan kepastian masa depan bersama Universitas IT Terbaik di Bali.</p> -->
+                                <p>Pelajari skill Praktis dan Raih kepastian karir bersama kampus vokasi terbaik di Bali, Alfa Prima.</p>
+                                <p>Periode Pendaftaran Gelombang 3 :</p>
+                            </div>
+                            <p class="text-xl font-semibold">1 Juli – 31 Agustus 2025</p>
+                            <button
+                                class="px-8 py-3 bg-[var(--color-alfa-yellow-500)] text-[var(--color-alfa-blue-950)] rounded-full font-semibold text-lg">Daftar
+                                Sekarang</button>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img src="berempat-orang.png" alt="alfa prima" width="600" height="600" class="size-[40rem] object-contain">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="max-w-6xl mx-auto mt-8">
+        <div class="text-center py-12">
+            <h3 class="text-[var(--color-alfa-blue-800)] font-bold text-5xl">Masih mikir karena ini?</h3>
+        </div>
+        <div class="bg-[url(megang-hape.jpg)] bg-cover bg-center bg-gradient-to-r from-[var(--color-alfa-blue-700)] to-[var(--color-alfa-blue-950)] rounded-3xl text-white p-16 space-y-6">
+            <h4 class="text-3xl font-medium"><span class="inline-block text-8xl font-semibold mb-2">9,9 Juta</span> <br>Gen Z di Indonesia Menganggur</h4>
+            <p>(Data Badan Pusat Statistik, 2024)</p>
+        </div>
+    </section> -->
+    
+    <section class="max-w-6xl mx-auto mt-12">
+        <div class="text-center py-12">
+            <h3 class="text-[var(--color-alfa-blue-500)] font-bold text-5xl">Masih mikir karena ini?</h3>
+        </div>
+        <div class="grid grid-cols-4 gap-4 mt-8">
+            <div class="bg-white rounded-2xl shadow-xl">
+                <img src="card1.jpg" alt="alfa prima" width="300" height="300" class="rounded-t-2xl">
+                <div class="p-4">
+                    <p class="text-lg">Kuliah lama dan membosankan, tapi setelah lulus susah dapat kerja.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-xl">
+                <img src="card1.jpg" alt="alfa prima" width="300" height="300" class="rounded-t-2xl">
+                <div class="p-4">
+                    <p class="text-lg">Biaya kuliah mahal dan materi kuliah yang hanya sekedar teori.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-xl">
+                <img src="card1.jpg" alt="alfa prima" width="300" height="300" class="rounded-t-2xl">
+                <div class="p-4">
+                    <p class="text-lg">Jurusan yang tidak sesuai passion, sehingga sulit mencari pekerjaan.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-xl">
+                <img src="card1.jpg" alt="alfa prima" width="300" height="300" class="rounded-t-2xl">
+                <div class="p-4">
+                    <p class="text-lg">Lingkungan kuliah yang tidak friendly dan menyebabkan suasana belajar kurang nyaman.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto mt-12">
+        <div class="text-center py-12 text-[var(--color-alfa-blue-500)] space-y-4">
+            <h3 class=" font-bold text-5xl">Tenang, kamu udah nemuin solusinya</h3>
+            <p>Kampus Alfa Prima satu-satunya Kampus Vokasi dengan 2 Sertifikasi Internasional dan sudah terakreditasi resmi.</p>
+        </div>
+        <div class="grid grid-cols-2 gap-4 mt-8">
+            <div class="bg-white rounded-2xl shadow-xl">
+                <div class="p-6 text-[var(--color-alfa-blue-500)] space-y-2">
+                    <h6 class="text-5xl font-bold">100%</h6>
+                    <p>Kuliah singkat  1 dan 2 Tahun dengan biaya terjangkau dan dapat dicicil selama kuliah.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-xl">
+                <div class="p-6 text-[var(--color-alfa-blue-500)] space-y-2">
+                    <h6 class="text-5xl font-bold">95,33%</h6>
+                    <p>Alumni terserap ke dunia kerja berbekal hard skill dan soft skill mumpuni.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-xl">
+                <div class="p-6 text-[var(--color-alfa-blue-500)] space-y-2">
+                    <h6 class="text-5xl font-bold">70%</h6>
+                    <p>Pembelajarannya berbasis Praktek.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-xl">
+                <div class="p-6 text-[var(--color-alfa-blue-500)] space-y-2">
+                    <h6 class="text-5xl font-bold">69,33%</h6>
+                    <p>Lulusan Alfa Prima sudah bekerja sebelum wisuda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto mt-12">
+        <div class="text-center py-12 text-[var(--color-alfa-blue-500)] space-y-4">
+            <h3 class=" font-bold text-5xl">Pilih Jurusan Favoritmu</h3>
+            <p>Jurusan dengan peluang tinggi.</p>
+        </div>
+        <div class="grid grid-cols-2 gap-4 mt-8">
+            <div class="bg-white rounded-2xl shadow-xl">
+                <div class="p-6 text-[var(--color-alfa-blue-500)] space-y-2">
+                    <h6 class="text-5xl font-bold">100%</h6>
+                    <p>Kuliah singkat  1 dan 2 Tahun dengan biaya terjangkau dan dapat dicicil selama kuliah.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-xl">
+                <div class="p-6 text-[var(--color-alfa-blue-500)] space-y-2">
+                    <h6 class="text-5xl font-bold">95,33%</h6>
+                    <p>Alumni terserap ke dunia kerja berbekal hard skill dan soft skill mumpuni.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-xl">
+                <div class="p-6 text-[var(--color-alfa-blue-500)] space-y-2">
+                    <h6 class="text-5xl font-bold">70%</h6>
+                    <p>Pembelajarannya berbasis Praktek.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-xl">
+                <div class="p-6 text-[var(--color-alfa-blue-500)] space-y-2">
+                    <h6 class="text-5xl font-bold">69,33%</h6>
+                    <p>Lulusan Alfa Prima sudah bekerja sebelum wisuda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+
+</html>
